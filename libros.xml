@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE listacursos SYSTEM "libros.dtd">
+<libros xsi:noNamespaceSchemaLocation="libros.xsd">
+    <titulo>Harry Potter</titulo>
+    <autor> J.K Rowlin</autor>
+    <editorial> Editorial Salamandra </editorial>
+    <precio> 500000 </precio>
+    <codigoPais>ESP</codigoPais>
+    <year>1994</year>
+</libros>

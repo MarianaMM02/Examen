@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bib nombre="Tomás Carrasquilla" centro="poblado">
+    <libro anyo="1994">
+        <titulo>TCP/IP Illustrated</titulo>
+        <autor 
+foto="https://crearmiempresa.es/wp-content/uploads/2015/07/frases-de-
+steve-jobs.jpg">
+            <apellido>stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro anyo="1992">
+        <titulo>Advanced Programming for Unix environment</titulo>
+        <autor>
+            <apellido>stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro anyo="2000">
+        <titulo>Data on the Web</titulo>
+        <autor>
+            <apellido>abiteboul</apellido>
+            <nombre>Serge</nombre>
+        </autor>
+        <autor>
+            <apellido>buneman</apellido>
+            <nombre>Peter</nombre>
+        </autor>
+        <autor>
+            <apellido>suciu</apellido>
+            <nombre>Dan</nombre>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>
+    <libro anyo="1999">
+        <titulo> Economics of Technology for Digital TV</titulo>
+        <autor>
+            <apellido>gerbarg</apellido>
+            <nombre>Darcy</nombre>
+        </autor>
+        <editorial>Kluwer Academic editorials</editorial>
+        <precio>129.95</precio>
+    </libro>
+</bib>

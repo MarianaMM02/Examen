@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE listacursos SYSTEM "Autores.dtd">
+
+<ListaAutores>
+    <Autor xsi:noNamespaceSchemaLocation="Autores.xsd">
+        <dni>1000756962</dni>
+        <nombre>Mariana</nombre>
+        <apellido>Munera</apellido>
+    </Autor>
+</ListaAutores>

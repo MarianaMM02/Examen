@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro[
+
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT editorial (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+  <!ELEMENT codigoPais (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+  
+]>

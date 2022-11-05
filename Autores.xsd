@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema >
+
+  <xs:element name="nombre" />
+
+  <xs:element name="apellido">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+  </xs:element>  
+
+  <xs:element name="cedula" type="xs:integer"
+           minOccurs="0"/> 
+    <xs:element name="SampleDataSet" msdata:IsDataSet="true">  
+    <xs:complexType>  
+      <xs:choice maxOccurs="unbounded">  
+        <xs:element ref="Autores" />  
+      </xs:choice>  
+    </xs:complexType>  
+    <xs:unique     msdata:ConstraintName="AutorID"     name="Uniquecedula" >       <xs:selector xpath=".//Autores" />       <xs:field xpath="cedula" />     </xs:unique>  
+  </xs:element> 
+
+  <xs:element name="ciudad" />
+  <xs:element name="paisRecidencia" />
+  <xs:element name="telefono" />
+  <xs:element name="correo" />
+
+</xs:schema>
