@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Autores[
+  <!ATTLIST cedula CDATA #REQUIRED>
+  <!ELEMENT cedula (#PCDATA)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT paisRecidencia (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+  <!ELEMENT correo (#PCDATA)>
+]>
